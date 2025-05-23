@@ -323,8 +323,8 @@ body:
       You are free to use and modify the code in your project as long as you include a link to this [GitHub repository](https://github.com/denkiwakame/academic-project-template) in your footer.
 
 projects: # relevant projects
-  - title: CG-Bench
-    description: Clue-grounded Question Answering Benchmark for Long Video Understanding
+  - title: 'CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding'
+    description: CG-Bench is the largest benchmark for clue-grounded question answering in long videos, featuring 1,219 curated videos and 12,129 QA pairs across perception, reasoning, and hallucination tasks. It introduces clue-based white box and black box evaluations to assess genuine video understanding, revealing significant performance gaps among MLLMs.
     img: https://cg-bench.github.io/leaderboard/resources/teaser.png
     journal: "ICLR'25"
     url: https://cg-bench.github.io/leaderboard/
