@@ -323,18 +323,18 @@ body:
       You are free to use and modify the code in your project as long as you include a link to this [GitHub repository](https://github.com/denkiwakame/academic-project-template) in your footer.
 
 projects: # relevant projects
-  - title: Relevant Project I
-    description: abstract text
-    img: https://getuikit.com/docs/images/light.jpg
-    journal: "ABCD'23"
-    url: https://denkiwakame.github.io/academic-project-template/
-  - title: Relevant Project II
-    description: abstract text
-    img: 001.jpg
-    journal: "EFGH'22"
-    url: https://denkiwakame.github.io/academic-project-template/
-  - title: Relevant Project III
-    description: abstract text
-    img: 002.jpg
-    journal: "IJKL'22"
-    url: https://denkiwakame.github.io/academic-project-template/
+  - title: CG-Bench
+    description: Clue-grounded Question Answering Benchmark for Long Video Understanding
+    img: https://cg-bench.github.io/leaderboard/resources/teaser.png
+    journal: "ICLR'25"
+    url: https://cg-bench.github.io/leaderboard/
+  # - title: Relevant Project II
+  #   description: abstract text
+  #   img: 001.jpg
+  #   journal: "EFGH'22"
+  #   url: https://denkiwakame.github.io/academic-project-template/
+  # - title: Relevant Project III
+  #   description: abstract text
+  #   img: 002.jpg
+  #   journal: "IJKL'22"
+  #   url: https://denkiwakame.github.io/academic-project-template/
