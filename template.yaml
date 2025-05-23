@@ -1,14 +1,14 @@
 theme: default # default || classic || dark
 organization: Nanjing University
-twitter: '@denkivvakame'
-title: Academic Project Page Template
-journal: "AAAA'24"
+twitter:
+title: 'AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs'
+journal: 'Under Review'
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org
   code: https://github.com/denkiwakame/academic-project-template
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: https://colab.research.google.com/
+  video:
+  demo:
   huggingface: https://huggingface.co/
 description: academic projectpage template that supports markdown and KaTeX
 
@@ -16,23 +16,30 @@ image: https://denkiwakame.github.io/academic-project-template/teaser.jpg
 url: https://denkiwakame.github.io/academic-project-template
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Wakame Denki*
-    affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
-    position: intern
-  - name: Jane Doe
+  - name: Lidong Lu
     affiliation: [1]
-    position: Researcher
-    url: https://thispersondoesnotexist.com/
-  - name: John Smith
+    url: https://lulidong.com/
+    position: Student
+  - name: Guo Chen
     affiliation: [1]
-    position: Researcher
-    url: https://thispersondoesnotexist.com/
+    position: Student
+    url: https://cg1177.github.io/
+  - name: Zhiqi Li
+    affiliation: [1]
+    position: Student
+    url: https://zhiqi-li.github.io/
+  - name: Yicheng Liu
+    affiliation: [1]
+    position: Student
+    url:
+  - name: Tong Lu
+    affiliation: [1]
+    position: Professor
+    url: https://cs.nju.edu.cn/lutong/index.htm
 affiliations:
-  - Pixel Genius Labs
-  - NeuroNauts Academy
+  - Nanjing University
 meta:
-  - '*work done while she was interning at Pixel Genius Lab.'
+  -
 bibtex: >
   @article{doe2024superai,
     author    = {Jane Doe and John Smith},
@@ -51,9 +58,7 @@ bibtex: >
 
 teaser: teaser.jpg
 abstract: |
-  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of 🎨**UIKit** and ⚛ **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
-  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
-  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
+  Despite progress in video understanding, current MLLMs struggle with counting tasks. Existing benchmarks are limited by short videos, close-set queries, lack of clue annotations, and weak multimodal coverage. In this paper, we introduce CG-AV-Counting, a manually-annotated clue-grounded counting benchmark with 1,027 multimodal questions and 5,845 annotated clues over 497 long videos. It supports both black-box and white-box evaluation, serving as a comprehensive testbed for both end-to-end and reasoning-based counting. To explore ways to improve model's counting capability, we propose AV-Reasoner, a model trained with GRPO and curriculum learning to generalize counting ability from related tasks. AV-Reasoner achieves state-of-the-art results across multiple benchmarks, demonstrating the effectiveness of reasoning-based capability transfer.
 
 body:
   - title: Media examples
