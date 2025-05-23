@@ -72,7 +72,7 @@ export default class Header extends React.Component {
     return (
       <>
         <div className="uk-cover-container uk-background-secondary">
-          <div className="uk-container uk-container-small uk-section">
+          <div className="uk-container uk-section">
             <div className="uk-text-center uk-text-bold">
               <p className={titleClass}>{this.props.title}</p>
               <span className="uk-label uk-label-primary uk-text-center uk-margin-small-bottom">
