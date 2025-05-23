@@ -14,7 +14,7 @@ export default class Overview extends React.Component {
       <div className="uk-section">
         <img
           src={`${this.props.teaser}`}
-          className="uk-align-center uk-responsive-width"
+          className="uk-align-center"
           style={{ maxWidth: 900 }}
           alt=""
         />
