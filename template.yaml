@@ -69,17 +69,17 @@ body:
         <table class="uk-table uk-table-small uk-text-small uk-table-divider">
           <thead>
             <tr>
-              <th>Model</th>
-              <th>Modality</th>
-              <th colspan="4">Black-box Evaluation (Long Acc)</th>
-              <th colspan="4">Black-box Evaluation (Ref Acc)</th>
-              <th colspan="2">White-box Evaluation</th>
+              <th style="font-size:13px;">Model</th>
+              <th style="font-size:13px;">Modality</th>
+              <th colspan="4" style="font-size:13px;">Black-box Evaluation (Long Acc)</th>
+              <th colspan="4" style="font-size:13px;">Black-box Evaluation (Ref Acc)</th>
+              <th colspan="2" style="font-size:13px;">White-box Evaluation</th>
             </tr>
             <tr>
               <th></th><th></th>
-              <th>Acc ↑</th><th>OBOA ↑</th><th>MAE ↓</th><th>RMSE ↓</th>
-              <th>Acc ↑</th><th>OBOA ↑</th><th>MAE ↓</th><th>RMSE ↓</th>
-              <th>WCS ↑</th><th>IFA ↑</th>
+              <th style="font-size:11px;">Acc ↑</th><th style="font-size:11px;">OBOA ↑</th><th style="font-size:11px;">MAE ↓</th><th style="font-size:11px;">RMSE ↓</th>
+              <th style="font-size:11px;">Acc ↑</th><th style="font-size:11px;">OBOA ↑</th><th style="font-size:11px;">MAE ↓</th><th style="font-size:11px;">RMSE ↓</th>
+              <th style="font-size:11px;">WCS ↑</th><th style="font-size:11px;">IFA ↑</th>
             </tr>
           </thead>
           <tbody>
