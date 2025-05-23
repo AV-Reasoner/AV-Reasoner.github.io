@@ -63,7 +63,7 @@ abstract: |
 body:
   - title: Benchmark
     text: |
-      ## LeaderBoard
+      ### LeaderBoard
 
       <div class="uk-overflow-auto uk-width-1-1">
         <table class="uk-table uk-table-small uk-text-small uk-table-divider">
