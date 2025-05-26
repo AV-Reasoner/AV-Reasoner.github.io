@@ -68,7 +68,7 @@ body:
       ### LeaderBoard
 
       <div class="uk-overflow-auto uk-width-1-1">
-        <table class="uk-table uk-table-small uk-text-small uk-table-divider">
+        <table class="uk-table uk-table-small uk-text-small uk-table-divider" id="evalTable">
           <thead>
             <tr>
               <th style="font-size:13px;">Model</th>
@@ -79,9 +79,9 @@ body:
             </tr>
             <tr>
               <th></th><th></th>
-              <th style="font-size:11px;">Acc ↑</th><th style="font-size:11px;">OBOA ↑</th><th style="font-size:11px;">MAE ↓</th><th style="font-size:11px;">RMSE ↓</th>
-              <th style="font-size:11px;">Acc ↑</th><th style="font-size:11px;">OBOA ↑</th><th style="font-size:11px;">MAE ↓</th><th style="font-size:11px;">RMSE ↓</th>
-              <th style="font-size:11px;">WCS ↑</th><th style="font-size:11px;">IFA ↑</th>
+              <th style="font-size:11px;" class="sortable">Acc ↑</th><th style="font-size:11px;" class="sortable">OBOA ↑</th><th style="font-size:11px;" class="sortable">MAE ↓</th><th style="font-size:11px;" class="sortable">RMSE ↓</th>
+              <th style="font-size:11px;" class="sortable">Acc ↑</th><th style="font-size:11px;" class="sortable">OBOA ↑</th><th style="font-size:11px;" class="sortable">MAE ↓</th><th style="font-size:11px;" class="sortable">RMSE ↓</th>
+              <th style="font-size:11px;" class="sortable">WCS ↑</th><th style="font-size:11px;" class="sortable">IFA ↑</th>
             </tr>
           </thead>
           <tbody>

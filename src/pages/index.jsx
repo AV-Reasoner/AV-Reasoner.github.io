@@ -6,6 +6,8 @@ import Header from '@/components/header';
 import Overview from '@/components/overview';
 import Video from '@/components/video';
 import Body from '@/components/body';
+import Benchmark from '@/components/benchmark';
+import Baseline from '@/components/baseline';
 import Footer from '@/components/footer';
 import Citation from '@/components/citation';
 import SpeakerDeck from '@/components/speakerdeck';
@@ -124,9 +126,11 @@ class Template extends React.Component {
             teaser={data.teaser}
             description={data.description}
           />
-          <Video video={data.resources.video} />
+          {/* <Video video={data.resources.video} />
           <SpeakerDeck dataId={data.speakerdeck} />
-          <Body body={data.body} />
+          <Body body={data.body} /> */}
+          <Benchmark />
+          <Baseline />
           <Citation bibtex={data.bibtex} />
           <Projects projects={data.projects} />
         </div>

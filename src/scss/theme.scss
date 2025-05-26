@@ -50,3 +50,21 @@ $base-focus-outline-style: none;
 @import 'uikit/src/scss/mixins-theme.scss';
 @import 'uikit/src/scss/uikit.scss';
 @import 'normalize.css/normalize.css';
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  height: 63px;
+  width: 38px;
+  opacity: 1;
+  z-index: 2;
+  color: #333333;
+  font-size: 20px;
+}
+
+.chatbg {
+  background: #e9eef6 !important;
+}
+
+:where(.css-dev-only-do-not-override-5uvb3z).ant-typography blockquote {
+  border-inline-start: 4px solid rgb(188, 209, 242);
+}
