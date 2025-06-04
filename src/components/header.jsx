@@ -25,7 +25,8 @@ class ResourceBtn extends React.Component {
       arxiv: SiArxiv,
       code: FaGithub,
       video: FaYoutube,
-      huggingface: HuggingFace,
+      benchmark: HuggingFace,
+      checkpoint: HuggingFace,
       demo: GoogleColab,
     };
     this.handleResize = this.handleResize.bind(this);
