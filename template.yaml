@@ -5,7 +5,7 @@ title: 'AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Count
 journal: 'Under Review'
 resources:
   paper: # https://openreview.net/
-  arxiv: https://arxiv.org
+  arxiv: https://arxiv.org/abs/2506.05328
   code: https://github.com/AV-Reasoner/AV-Reasoner
   video:
   demo:
@@ -42,19 +42,14 @@ affiliations:
 meta:
   -
 bibtex: >
-  @article{doe2024superai,
-    author    = {Jane Doe and John Smith},
-    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-    journal   = {Journal of Superintelligent Systems},
-    year      = {2024},
-    volume    = {99},
-    number    = {1},
-    pages     = {1-42},
-    month     = {January},
-    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-    doi       = {10.9999/jsis.2024.001},
-    url       = {https://www.example.com/superai-article},
-    note      = {This paper sets the benchmark for future AI research and applications.}
+  @misc{lu2025avreasoner,
+      title={AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs}, 
+      author={Lidong Lu and Guo Chen and Zhiqi Li and Yicheng Liu and Tong Lu},
+      year={2025},
+      eprint={2506.05328},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.05328}, 
   }
 
 teaser: teaser.jpg
