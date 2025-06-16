@@ -52,6 +52,15 @@ bibtex: >
       url={https://arxiv.org/abs/2506.05328}, 
   }
 
+  @misc{chen2024cgbench,
+      title={CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding}, 
+      author={Guo Chen and Yicheng Liu and Yifei Huang and Yuping He and Baoqi Pei and Jilan Xu and Yali Wang and Tong Lu and Limin Wang},
+      year={2024},
+      eprint={2412.12075},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+  }
+
 teaser: teaser.jpg
 abstract: |
   <p style="text-align:justify">
